@@ -11,6 +11,12 @@
 		060FE3F32612AF9F0097BAD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060FE3F22612AF9F0097BAD1 /* ContentView.swift */; };
 		060FE3F52612AFA00097BAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060FE3F42612AFA00097BAD1 /* Assets.xcassets */; };
 		060FE3F82612AFA00097BAD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 060FE3F72612AFA00097BAD1 /* Preview Assets.xcassets */; };
+		060FE4012612AFC30097BAD1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060FE4002612AFC30097BAD1 /* HomeView.swift */; };
+		060FE4042612AFE30097BAD1 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060FE4032612AFE30097BAD1 /* AccountView.swift */; };
+		060FE4072612AFEF0097BAD1 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060FE4062612AFEF0097BAD1 /* CartView.swift */; };
+		060FE40A2612B0080097BAD1 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060FE4092612B0080097BAD1 /* MessagesView.swift */; };
+		060FE40E2612B1510097BAD1 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060FE40D2612B1510097BAD1 /* TabBarView.swift */; };
+		060FE4112612DE520097BAD1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060FE4102612DE520097BAD1 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		060FE3F42612AFA00097BAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		060FE3F72612AFA00097BAD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		060FE3F92612AFA00097BAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		060FE4002612AFC30097BAD1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		060FE4032612AFE30097BAD1 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		060FE4062612AFEF0097BAD1 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		060FE4092612B0080097BAD1 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		060FE40D2612B1510097BAD1 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		060FE4102612DE520097BAD1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,12 @@
 			children = (
 				060FE3F02612AF9F0097BAD1 /* ShopApp.swift */,
 				060FE3F22612AF9F0097BAD1 /* ContentView.swift */,
+				060FE40D2612B1510097BAD1 /* TabBarView.swift */,
+				060FE4002612AFC30097BAD1 /* HomeView.swift */,
+				060FE4032612AFE30097BAD1 /* AccountView.swift */,
+				060FE4102612DE520097BAD1 /* SettingsView.swift */,
+				060FE4062612AFEF0097BAD1 /* CartView.swift */,
+				060FE4092612B0080097BAD1 /* MessagesView.swift */,
 				060FE3F42612AFA00097BAD1 /* Assets.xcassets */,
 				060FE3F92612AFA00097BAD1 /* Info.plist */,
 				060FE3F62612AFA00097BAD1 /* Preview Content */,
@@ -138,7 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				060FE4072612AFEF0097BAD1 /* CartView.swift in Sources */,
+				060FE4112612DE520097BAD1 /* SettingsView.swift in Sources */,
+				060FE4042612AFE30097BAD1 /* AccountView.swift in Sources */,
+				060FE40E2612B1510097BAD1 /* TabBarView.swift in Sources */,
+				060FE40A2612B0080097BAD1 /* MessagesView.swift in Sources */,
 				060FE3F32612AF9F0097BAD1 /* ContentView.swift in Sources */,
+				060FE4012612AFC30097BAD1 /* HomeView.swift in Sources */,
 				060FE3F12612AF9F0097BAD1 /* ShopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
